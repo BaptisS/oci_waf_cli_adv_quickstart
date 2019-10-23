@@ -1,0 +1,21 @@
+{
+      "action": "BLOCK",
+      "action-expiration-in-seconds": 60,
+      "challenge-settings": {
+        "block-action": "SHOW_CAPTCHA",
+        "block-error-page-code": "HIC",
+        "block-error-page-description": "Access blocked by HIC. Please contact support.",
+        "block-error-page-message": "Access to the website is blocked.",
+        "block-response-code": 403,
+        "captcha-footer": "Enter the letters and numbers as they are shown in image above.",
+        "captcha-header": "HIC have detected potential bot activity. To help us keep this site secure, please let us know that you are not a robot by entering the text from the image below.",
+        "captcha-submit-label": "Yes, I am human.",
+        "captcha-title": "Are you human?"
+      },
+      "failure-threshold": 5,
+      "failure-threshold-expiration-in-seconds": 60,
+      "interaction-threshold": 3,
+      "is-enabled": true,
+      "recording-period-in-seconds": 15,
+      "set-http-header": null
+    }

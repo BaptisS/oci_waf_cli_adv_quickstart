@@ -1,0 +1,6 @@
+{
+      "allowed-rate-per-address": 100,
+      "block-response-code": 503,
+      "is-enabled": true,
+      "max-delayed-count-per-address": 20
+}

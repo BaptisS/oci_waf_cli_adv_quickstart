@@ -1,0 +1,47 @@
+[
+   {
+        "action": "ALLOW", 
+        "block-action": "SET_RESPONSE_CODE", 
+        "block-error-page-code": "Access rules", 
+        "block-error-page-description": "Access blocked by website owner. Please contact support.", 
+        "block-error-page-message": "Access to the website is blocked.", 
+        "block-response-code": 403, 
+        "criteria": [
+          {
+            "condition": "IP_IS", 
+            "value": "1.2.3.4"
+          }
+        ], 
+        "name": "ALLOW_SPECIFIC_IP - 1.2.3.4"
+      },
+		{
+        "action": "DETECT", 
+        "block-action": "SET_RESPONSE_CODE", 
+        "block-error-page-code": "Access rules", 
+        "block-error-page-description": "Access blocked by website owner. Please contact support.", 
+        "block-error-page-message": "Access to the website is blocked.", 
+        "block-response-code": 403, 
+        "criteria": [
+          {
+            "condition": "IP_IS", 
+            "value": "1.2.3.4"
+          }
+        ], 
+        "name": "DETECT_SPECIFIC_IP - 1.2.3.4"
+      }, 
+      {
+        "action": "BLOCK", 
+        "block-action": "SHOW_ERROR_PAGE", 
+        "block-error-page-code": "Access Rules-403", 
+        "block-error-page-description": "Access blocked by website owner. Please contact support.", 
+        "block-error-page-message": "Access is blocked.", 
+        "block-response-code": 403, 
+        "criteria": [
+          {
+            "condition": "IP_IS_NOT", 
+            "value": "1.2.3.4"
+          }
+        ], 
+        "name": "Block_All_Except_Specific_IP - 1.2.3.4"
+      }
+]

@@ -1,0 +1,404 @@
+[
+  {
+    "action": "BLOCK",
+    "key": "932171",
+    "name": "Remote Command Execution (RCE) Attempt: Shellshock vulnerability (CVE-2014-6271 and CVE-2014-7169)"
+  },
+  {
+    "action": "BLOCK",
+    "key": "932170",
+    "name": "Remote Command Execution (RCE) Attempt: Shellshock vulnerability (CVE-2014-6271 and CVE-2014-7169)"
+  },
+  {
+    "action": "BLOCK",
+    "key": "911100",
+    "name": "Restrict HTTP Request Methods"
+  },
+  {
+    "action": "BLOCK",
+    "key": "90004",
+    "name": "Executable file upload attempt"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950103",
+    "name": "Path/directory traversal"
+  },
+  {
+    "action": "BLOCK",
+    "key": "1000000",
+    "name": "Shellshock exploit attempt"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950006",
+    "name": "Injection for common system commands"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950011",
+    "name": "SSI Injection"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950010",
+    "name": "LDAP Injection"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950907",
+    "name": "OS Command Injection"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950120",
+    "name": "Host doesn't match localhost"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958046",
+    "name": "url shell XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958011",
+    "name": "background-image: XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958051",
+    "name": "?script XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958009",
+    "name": "import XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958045",
+    "name": "url javascript: XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958416",
+    "name": "bonmouseout XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958018",
+    "name": "href javascript: XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958000",
+    "name": "addimport XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958005",
+    "name": "cdata XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958001",
+    "name": "document cookie XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958006",
+    "name": "body background XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958031",
+    "name": "javascript: XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958057",
+    "name": "?iframe XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958002",
+    "name": "execscript XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958019",
+    "name": "href schell XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958032",
+    "name": "src and shell XSS attack"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981136",
+    "name": "Generic XSS attacks"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973300",
+    "name": "Common direct HTML injection"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950007",
+    "name": "Blind SQL injection"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950012",
+    "name": "HTTP Request Smuggling"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950910",
+    "name": "HTTP Response Splitting"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950002",
+    "name": "Common system command access attempt"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950005",
+    "name": "Common system files access attempt"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973313",
+    "name": "&{alert('xss')} attacks"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973312",
+    "name": "'';!--\"<XSS>=&{()} Attacks"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973310",
+    "name": "Embedded Scripts Within Alert Fragments"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973309",
+    "name": "CSS Fragments attacks"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973307",
+    "name": "Embedded Scripts Within JavaScript Fragments"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973306",
+    "name": "Embedding javascript in style attribute"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973338",
+    "name": "Embedded Scripts Within URI Schemes"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973337",
+    "name": "Embedded Scripts Within Event Handlers"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973336",
+    "name": "Embedding Scripts Within Scripts"
+  },
+  {
+    "action": "BLOCK",
+    "key": "2250121",
+    "name": "Local File Inclusion ENV Attack in User-Agent"
+  },
+  {
+    "action": "BLOCK",
+    "key": "2250120",
+    "name": "Local File Inclusion Attacks"
+  },
+  {
+    "action": "BLOCK",
+    "key": "2250117",
+    "name": "Common RFI attacks"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950117",
+    "name": "URL Contains an IP Address"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960341",
+    "name": "Total Arguments Limits"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960335",
+    "name": "Number of Arguments Limits"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960208",
+    "name": "Values Limits"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960014",
+    "name": "URI Validation"
+  },
+  {
+    "action": "BLOCK",
+    "key": "958295",
+    "name": "Connection Header Validation"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960012",
+    "name": "Content-Length Header Validation"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960011",
+    "name": "GET/HEAD Requests Validation"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960017",
+    "name": "Host Header Is IP Address"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960904",
+    "name": "Missing Content-Type Header"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960009",
+    "name": "Missing User-Agent Header"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960015",
+    "name": "Missing Accept Header"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960007",
+    "name": "Missing Host Header"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960034",
+    "name": "Restrict HTTP Protocol Versions"
+  },
+  {
+    "action": "BLOCK",
+    "key": "960032",
+    "name": "Restrict HTTP Request Methods"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981247",
+    "name": "Concatenated basic SQL injection and SQLLFI attempts"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981256",
+    "name": "MATCH AGAINST, MERGE, EXECUTE IMMEDIATE and HAVING"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981241",
+    "name": "Conditional SQL injection attempts"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981250",
+    "name": "SQL benchmark and sleep injection attempts"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981248",
+    "name": "Chained SQL injection attempts"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981244",
+    "name": "SQL authentication bypass attempts"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950001",
+    "name": "Common SQL Injections"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981318",
+    "name": "String Termination/Statement Ending"
+  },
+  {
+    "action": "BLOCK",
+    "key": "95005"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973305"
+  },
+  {
+    "action": "BLOCK",
+    "key": "973303"
+  },
+  {
+    "action": "BLOCK",
+    "key": "950901"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981231"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981270"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981078"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981173"
+  },
+  {
+    "action": "BLOCK",
+    "key": "942000"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981317"
+  },
+  {
+    "action": "BLOCK",
+    "key": "9421400"
+  },
+  {
+    "action": "BLOCK",
+    "key": "9811318"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981255"
+  },
+  {
+    "action": "BLOCK",
+    "key": "981260",
+    "name": "SQL Hex Evasion Methods"
+  }
+]

@@ -1,0 +1,23 @@
+{
+      "allowed-http-methods": [
+        "GET",
+        "POST",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "block-action": "SET_RESPONSE_CODE",
+      "block-error-page-code": "403",
+      "block-error-page-description": "Unexpected request detected by OCI WAF Protection Rules. If this message persist please contact support.",
+      "block-error-page-message": "Access to the website is blocked.",
+      "block-response-code": 403,
+      "is-response-inspected": false,
+      "max-argument-count": 255,
+      "max-name-length-per-argument": 400,
+      "max-response-size-in-ki-b": 1024,
+      "max-total-name-length-of-arguments": 64000,
+      "media-types": [
+        "text/html",
+        "text/plain"
+      ],
+      "recommendations-period-in-days": 10
+    }
