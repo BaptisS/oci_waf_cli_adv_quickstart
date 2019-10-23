@@ -58,6 +58,7 @@ The configuration changes are done asynchronously and can take 10min+ to be repl
 - The Compartment OCID (ocid1.compartment.oc1..aaaaaxxxx) where your WAF policy has been created.    
 
 [opc@instance~]$ COMPOCID=ocid1.compartment.oc1..aaaaaxxxx
+
 [opc@instance~]$ oci waas custom-protection-rule create --compartment-id $COMPOCID --display-name Custom_Protection_Rule_01 –template '   SecRule REQUEST_COOKIES "regex matching SQL injection - part 1/2" \           "phase:2,
                                                  \           msg:'Detects chained SQL injection attempts 1/2.',
 												 \           id: {{id_1}},
@@ -68,6 +69,7 @@ The configuration changes are done asynchronously and can take 10min+ to be repl
 	\           id: {{id_2}},
 	\           ctl:ruleEngine={{mode}},
 	\           deny"   `
+
 
 For more information about ModSecurity's open source WAF rules, see Mod Security's documentation.  (https://www.modsecurity.org/CRS/Documentation/making.html ) 
 
